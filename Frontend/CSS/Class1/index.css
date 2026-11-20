@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: bisque; */
+}
+
+/* p{
+    color: brown;
+    background-color: bisque;
+} */
+
+#firstname{
+    color: blue;
+    font-size:64px;
+}
+#secondname{
+    color: green;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#thirdname{
+    color: orange;
+    font-size: 44px;
+}
+
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    font-weight: 800;
+}
+.common{
+    border:2px solid green;
+}
+
+/* p{
+    background-color: red;
+} */
+
+.parent{
+    background-color: gold;
+}
+.parent p{
+    color: fuchsia;
+}
+
+.main{
+    background-color: rgb(207, 195, 195);
+}
+
+.main >span{
+    color: red;
+}
+
+.click:hover{
+    background-color: blue;
+    color: white;
+    font-size: 28px;
+    
+}
+input{
+    border: none;
+}
+input:focus {
+    border: 2px solid blue;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+.contain p:first-child{
+    color: blueviolet;
+}
+.contain p:last-child{
+    color: teal;
+    background-color: aqua;
+}
+
+.contain p:nth-child(3){
+    color: yellowgreen;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .parent{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(191, 187, 187);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.child{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+} */
+
+.navbar{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 20px 40px;
+     color: white;
+     background-color: #222;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+}
+.auth-buttons button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+    
+}
+.card{
+   border: 1px solid gray;
+   padding: 25px;
+   border-radius: 30px;
+   text-align: center;
+
+}
+.card h2{
+    margin-bottom: 15px;
+
+}
+.card button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

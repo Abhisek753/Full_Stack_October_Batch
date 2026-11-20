@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* CSS FOR NAVBAR */
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    background-color: rgb(110, 164, 180);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    position: relative;
+    padding: 1.5% 5%;
+    color: #ffffff;
+}
+
+.nav-left h2{
+   margin-bottom: 1%;
+
+}
+
+.nav-right{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;gap: 12px;
+
+}
+.hamburger-checkbox{
+    display: none;
+}
+.hamburger-icon{
+    display: none;
+}
+
+.home{
+    padding: 60px 5%;
+    background-color: aliceblue;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+.home-text h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.home-text p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.home-btn{
+    display: inline-block;
+    padding: 10px 20px ;
+    background-color: #4eacff;
+    border-radius: 5%;
+}
+.home-image img{
+   width: 100%;
+   border-radius: 10px;
+}
+
+@media(max-width:760px){
+    .navbar{
+       grid-template-columns: 1fr auto;
+    }
+    .hamburger-icon{
+        display: block;
+        z-index: 1001;
+    }
+
+    .nav-right{
+        position: absolute;
+        top: 100%;
+        grid-auto-flow: row;
+        left: 0;
+        width: 100%;
+        grid-template-columns: 1fr;
+        display: none;
+        gap: 15px;
+        padding: 15px 10px;
+        background-color:rgb(110, 164, 180) ;
+
+    }
+
+    .hamburger-checkbox:checked ~ .nav-right{
+        display: grid;
+    }
+}
